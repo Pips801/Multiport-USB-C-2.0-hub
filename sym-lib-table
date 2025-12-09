@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TPS2121")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS2121/TPS2121.kicad_sym")(options "")(descr ""))
+  (lib (name "TPS56A37")(type "KiCad")(uri "${KIPRJMOD}/Components/TPS56A37/TPS56A37.kicad_sym")(options "")(descr ""))
+)

@@ -53,14 +53,14 @@
 		(uuid "86bf7b8a-bd65-4940-a341-5115006114a3")
 	)
 	(junction
-		(at 181.61 104.14)
+		(at 180.34 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "593d62cc-d963-4700-add3-51d76ceafe63")
+		(uuid "e341de8d-735d-47c9-b551-02a9af5607fa")
 	)
 	(wire
 		(pts
-			(xy 124.46 104.14) (xy 181.61 104.14)
+			(xy 124.46 104.14) (xy 180.34 104.14)
 		)
 		(stroke
 			(width 0)
@@ -150,7 +150,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 85.09) (xy 184.15 85.09)
+			(xy 180.34 85.09) (xy 184.15 85.09)
 		)
 		(stroke
 			(width 0)
@@ -220,7 +220,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 181.61 109.22)
+			(xy 180.34 104.14) (xy 180.34 109.22)
 		)
 		(stroke
 			(width 0)
@@ -250,7 +250,7 @@
 	)
 	(wire
 		(pts
-			(xy 181.61 104.14) (xy 181.61 85.09)
+			(xy 180.34 104.14) (xy 180.34 85.09)
 		)
 		(stroke
 			(width 0)
@@ -1928,8 +1928,8 @@
 		)
 	)
 	(sheet
-		(at 179.07 109.22)
-		(size 44.45 19.05)
+		(at 177.8 109.22)
+		(size 45.72 19.05)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1943,7 +1943,7 @@
 		)
 		(uuid "842043d2-bca2-4e2b-b4fa-303380c6ca60")
 		(property "Sheetname" "Downstream-facing ports"
-			(at 178.816 130.556 0)
+			(at 177.546 130.556 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1952,7 +1952,7 @@
 			)
 		)
 		(property "Sheetfile" "DFPs.kicad_sch"
-			(at 179.07 131.318 0)
+			(at 177.8 131.318 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2081,7 +2081,7 @@
 			)
 		)
 		(pin "DFP_VBUS" bidirectional
-			(at 181.61 109.22 90)
+			(at 180.34 109.22 90)
 			(uuid "a4ae2e2b-2d8c-48c2-81ae-b7e291328c81")
 			(effects
 				(font

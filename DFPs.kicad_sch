@@ -4,6 +4,12 @@
 	(generator_version "9.0")
 	(uuid "f74b1626-20b2-4fe6-be90-9440f7822b7c")
 	(paper "A4")
+	(title_block
+		(title "Downstream-facing ports")
+		(date "2025-12-10")
+		(rev "R1")
+		(company "https://pips.engineering")
+	)
 	(lib_symbols
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
@@ -1363,9 +1369,172 @@
 		)
 		(uuid "f1b04f8a-cc88-4bfb-b27a-e2a55acc07ff")
 	)
+	(table
+		(column_count 2)
+		(border
+			(external yes)
+			(header yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(separators
+			(rows yes)
+			(cols yes)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+		)
+		(column_widths 11.43 10.16)
+		(row_heights 2.54 2.54 2.54 2.54)
+		(cells
+			(table_cell "CC value"
+				(exclude_from_sim no)
+				(at 107.95 173.99 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "49742637-0ab0-41c6-960c-bfb2ab247620")
+			)
+			(table_cell "Current"
+				(exclude_from_sim no)
+				(at 119.38 173.99 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
+					)
+					(justify left top)
+				)
+				(uuid "2b8b5cc1-649c-49bb-a3d5-9145eb71e301")
+			)
+			(table_cell "56kΩ"
+				(exclude_from_sim no)
+				(at 107.95 176.53 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "2ca9e58b-b629-4fd1-b797-56f00c682872")
+			)
+			(table_cell "500mA"
+				(exclude_from_sim no)
+				(at 119.38 176.53 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4b095483-2d6c-4ea6-ba87-64e1ae569de2")
+			)
+			(table_cell "22kΩ"
+				(exclude_from_sim no)
+				(at 107.95 179.07 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "4d4e192e-af94-473a-88e6-3775c41167d2")
+			)
+			(table_cell "1.5A"
+				(exclude_from_sim no)
+				(at 119.38 179.07 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "8c16bb7f-60f2-44eb-b0b6-4bf27a9257ff")
+			)
+			(table_cell "10kΩ"
+				(exclude_from_sim no)
+				(at 107.95 181.61 0)
+				(size 11.43 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "9398ad63-b2fa-45db-a265-48ccf8338734")
+			)
+			(table_cell "3A"
+				(exclude_from_sim no)
+				(at 119.38 181.61 0)
+				(size 10.16 2.54)
+				(margins 0.9525 0.9525 0.9525 0.9525)
+				(span 1 1)
+				(fill
+					(type none)
+				)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+				(uuid "e9f67ef0-2226-4eb6-9393-1056e832e582")
+			)
+		)
+	)
 	(hierarchical_label "DFP_VBUS"
 		(shape bidirectional)
-		(at 220.98 73.66 0)
+		(at 220.98 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1409,7 +1578,7 @@
 	)
 	(hierarchical_label "DFP_VBUS"
 		(shape bidirectional)
-		(at 262.89 73.66 0)
+		(at 262.89 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1442,7 +1611,7 @@
 	)
 	(hierarchical_label "DFP_VBUS"
 		(shape bidirectional)
-		(at 53.34 73.66 0)
+		(at 53.34 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1486,7 +1655,7 @@
 	)
 	(hierarchical_label "DFP_VBUS"
 		(shape bidirectional)
-		(at 179.07 73.66 0)
+		(at 179.07 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1530,7 +1699,7 @@
 	)
 	(hierarchical_label "DFP_VBUS"
 		(shape bidirectional)
-		(at 95.25 73.66 0)
+		(at 95.25 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1541,7 +1710,7 @@
 	)
 	(hierarchical_label "DFP_VBUS"
 		(shape bidirectional)
-		(at 137.16 73.66 0)
+		(at 137.16 73.66 90)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -619,7 +619,7 @@
     ],
     [
       "dbeb6857-40db-4245-a808-e638a0dcebd7",
-      "Power delivery"
+      "Power management"
     ],
     [
       "2aa657a2-7c4f-4981-901b-4c9e50c9501b",
@@ -627,7 +627,7 @@
     ],
     [
       "842043d2-bca2-4e2b-b4fa-303380c6ca60",
-      "Downward facing ports"
+      "Downstream-facing ports"
     ]
   ],
   "text_variables": {}

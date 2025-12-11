@@ -2037,7 +2037,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5fb791ba-5360-4085-8832-16fc712b04fe")
-		(property "Reference" "#PWR020"
+		(property "Reference" "#PWR02"
 			(at 179.07 104.14 0)
 			(effects
 				(font
@@ -2087,7 +2087,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "#PWR020")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -2103,7 +2103,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "64449a3b-0984-4709-a96a-a2c726a3d06c")
-		(property "Reference" "U6"
+		(property "Reference" "U1"
 			(at 182.1881 69.85 0)
 			(effects
 				(font
@@ -2169,7 +2169,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "U6")
+					(reference "U1")
 					(unit 1)
 				)
 			)
@@ -2320,7 +2320,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9ca8d64b-edc3-4bb3-a4eb-4640a01e1f07")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR05"
 			(at 115.57 120.65 0)
 			(effects
 				(font
@@ -2370,7 +2370,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "#PWR01")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -2386,7 +2386,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a3c6d99a-fa7d-416c-8b51-4d92574c8614")
-		(property "Reference" "#PWR021"
+		(property "Reference" "#PWR01"
 			(at 144.78 90.17 0)
 			(effects
 				(font
@@ -2436,7 +2436,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "#PWR021")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -2452,7 +2452,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c6557d75-d42e-45ad-a502-139a152c6f9a")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR04"
 			(at 69.85 120.65 0)
 			(effects
 				(font
@@ -2502,7 +2502,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "#PWR02")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -2625,7 +2625,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f5b1e74c-63eb-429e-a463-54c000522bf5")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR03"
 			(at 223.52 104.14 0)
 			(effects
 				(font
@@ -2675,7 +2675,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "#PWR022")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -2798,7 +2798,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "feaa06a8-ff37-4d11-afa3-7cc1bb17753b")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 226.6381 69.85 0)
 			(effects
 				(font
@@ -2864,7 +2864,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)

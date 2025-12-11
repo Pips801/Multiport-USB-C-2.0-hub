@@ -1995,6 +1995,17 @@
 		)
 		(uuid "51b91088-15f7-4622-96d0-a284af2511b1")
 	)
+	(text "TODO:\nCalculate resistor/cap values"
+		(exclude_from_sim no)
+		(at 241.808 85.598 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.1588)
+			)
+		)
+		(uuid "5ec1cf72-3751-4eb6-98ae-829a0a04128e")
+	)
 	(text "IN1 = 5V - 20V\nIN2 = 5V"
 		(exclude_from_sim no)
 		(at 130.302 37.592 0)
@@ -10084,6 +10095,8 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
 					(justify left top)
 				)
@@ -10101,6 +10114,8 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
 					(justify left top)
 				)
@@ -10260,7 +10275,7 @@
 		(cells
 			(table_cell "R_ISET kΩ"
 				(exclude_from_sim no)
-				(at 81.28 80.01 0)
+				(at 81.28 82.55 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -10279,7 +10294,7 @@
 			)
 			(table_cell "Amperage"
 				(exclude_from_sim no)
-				(at 93.98 80.01 0)
+				(at 93.98 82.55 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -10298,7 +10313,7 @@
 			)
 			(table_cell "21"
 				(exclude_from_sim no)
-				(at 81.28 82.55 0)
+				(at 81.28 85.09 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -10308,6 +10323,8 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
 					(justify left top)
 				)
@@ -10315,7 +10332,7 @@
 			)
 			(table_cell "3A"
 				(exclude_from_sim no)
-				(at 93.98 82.55 0)
+				(at 93.98 85.09 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -10325,6 +10342,8 @@
 				(effects
 					(font
 						(size 1.27 1.27)
+						(thickness 0.254)
+						(bold yes)
 					)
 					(justify left top)
 				)
@@ -10332,7 +10351,7 @@
 			)
 			(table_cell "float"
 				(exclude_from_sim no)
-				(at 81.28 85.09 0)
+				(at 81.28 87.63 0)
 				(size 12.7 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)
@@ -10349,7 +10368,7 @@
 			)
 			(table_cell "3.25A"
 				(exclude_from_sim no)
-				(at 93.98 85.09 0)
+				(at 93.98 87.63 0)
 				(size 11.43 2.54)
 				(margins 0.9525 0.9525 0.9525 0.9525)
 				(span 1 1)

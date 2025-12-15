@@ -1519,8 +1519,8 @@
 	)
 	(text_box "Upstream ports"
 		(exclude_from_sim no)
-		(at 57.15 62.23 0)
-		(size 91.44 60.96)
+		(at 54.61 62.23 0)
+		(size 93.98 60.96)
 		(margins 0.9525 0.9525 0.9525 0.9525)
 		(stroke
 			(width 0)
@@ -2201,7 +2201,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.7 83.82 0)
 			(effects
 				(font
@@ -2268,7 +2268,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 139.7 81.28 0)
 			(effects
 				(font
@@ -2518,7 +2518,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ed11c632-5cbf-4911-935a-f6518bfae04c")
-		(property "Reference" "PD1"
+		(property "Reference" "USBC1"
 			(at 69.85 68.58 0)
 			(effects
 				(font
@@ -2526,7 +2526,7 @@
 				)
 			)
 		)
-		(property "Value" "PD port"
+		(property "Value" "UFP1 - PD"
 			(at 69.85 71.12 0)
 			(effects
 				(font
@@ -2609,7 +2609,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "PD1")
+					(reference "USBC1")
 					(unit 1)
 				)
 			)
@@ -2691,7 +2691,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fe4f918b-0f96-4bae-82fd-b9dbbb643092")
-		(property "Reference" "UFP1"
+		(property "Reference" "USBC2"
 			(at 115.57 68.58 0)
 			(effects
 				(font
@@ -2699,7 +2699,7 @@
 				)
 			)
 		)
-		(property "Value" "Upstream-facing port"
+		(property "Value" "UFP2 - data"
 			(at 115.57 71.12 0)
 			(effects
 				(font
@@ -2782,7 +2782,7 @@
 		(instances
 			(project "Multiport USB-C 2.0 hub"
 				(path "/36dda7fd-e284-4ee0-b9cb-842fdde3c54e/0d39d546-6b90-4921-ad72-df04e5c0c865"
-					(reference "UFP1")
+					(reference "USBC2")
 					(unit 1)
 				)
 			)

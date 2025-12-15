@@ -2080,9 +2080,9 @@
 				(justify right)
 			)
 		)
-		(pin "DFP_VBUS" bidirectional
+		(pin "DFP_VBUS" input
 			(at 180.34 109.22 90)
-			(uuid "a4ae2e2b-2d8c-48c2-81ae-b7e291328c81")
+			(uuid "5a0a4d77-ac32-4422-8138-7678cddc5ac5")
 			(effects
 				(font
 					(size 1.27 1.27)
